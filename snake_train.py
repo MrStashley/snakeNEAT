@@ -4,7 +4,6 @@ import sys
 from snakeRunner import snakeRunner
 
 
-# Driver for NEAT solution to FlapPyBird
 def evolutionary_driver(n=0,load = False, save = False):
     # Load configuration.
     config = neat.Config(neat.DefaultGenome, neat.DefaultReproduction,
